@@ -28,7 +28,7 @@ body {
     height: 100px;
     background-color: aqua;
     font-size: 90px;
-    overflow: scroll;
+    overflow-y: hidden;
 }
 
 .button-section {
