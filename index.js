@@ -22,6 +22,7 @@ operandButtons.forEach((button) => {
 })
 
 calculateButton.addEventListener('click', () => {
+    if (!oldArith) return
     let result = compute()
     oldArith = ''
     display.textContent = result
