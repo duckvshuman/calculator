@@ -12,20 +12,23 @@ body {
     padding: 1%
 }
 
-.textbox, .button-section {
+.display, .button-section {
     margin: 2%;
 }
 
-.textbox, button {
+.display, button {
     border-radius: 5px;
 }
 
-.textbox {
+.display {
+    color: black;
     text-align: right;
     flex: 1;
     width: 355px;
     height: 100px;
     background-color: aqua;
+    font-size: 90px;
+    overflow: scroll;
 }
 
 .button-section {
@@ -42,7 +45,15 @@ button {
 }
 
 button:hover {
-    background-color: rgba(255, 167, 3, 0.715);
+    background-color: rgba(255, 167, 3, 0.82);
+}
+
+button:active {
+    background-color: rgba(255, 167, 3, 0.611);
+}
+
+.large-button {
+    grid-column: span 2;
 }
 
 footer, h1 {
