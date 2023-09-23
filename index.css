@@ -42,6 +42,7 @@ button {
     background-color: orange;
     width: 100%;
     height: 70px;
+    color: black;
 }
 
 button:hover {
